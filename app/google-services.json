@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "269731911130",
+    "project_id": "urbancomputing-cbe72",
+    "storage_bucket": "urbancomputing-cbe72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269731911130:android:c0de756fda4d4bef679ce3",
+        "android_client_info": {
+          "package_name": "com.urbancomputing.WasteIdentifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269731911130-id31at5hmd0tvldk3hb6juhiviu59ar9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-9LH2RPryaUgMdFhRoCW5M0T_9B7j_GA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269731911130-id31at5hmd0tvldk3hb6juhiviu59ar9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269731911130:android:53ea7ee59908ea5b679ce3",
+        "android_client_info": {
+          "package_name": "com.urbancomputing.wasteIdentifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269731911130-id31at5hmd0tvldk3hb6juhiviu59ar9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-9LH2RPryaUgMdFhRoCW5M0T_9B7j_GA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269731911130-id31at5hmd0tvldk3hb6juhiviu59ar9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Urban Waste Identifier</string>
+    <string name="select_image">Click to identify waste type!</string>
+    <string name="help_us_get_better">Help us get better!</string>
+    <string name="choose_an_image_to_upload">Choose an image to Upload</string>
+    <string name="upload">Upload</string>
+    <string name="submit_image">Submit Image !</string>
+    <string name="choose">Choose</string>
+    <string name="user_to_upload_image">User to Upload Image</string>
+    <string name="click_to_categorize_by_waste_bin">Click to categorize by waste bin!</string>
+</resources>

@@ -1,0 +1,21 @@
+com/urbancomputing/wasteIdentifier/BinIdentification.java
+ com.urbancomputing.wasteIdentifier.BinIdentification
+ com.urbancomputing.wasteIdentifier.BinIdentification$1
+ com.urbancomputing.wasteIdentifier.BinIdentification$2
+com/urbancomputing/wasteIdentifier/BuildConfig.java
+ com.urbancomputing.wasteIdentifier.BuildConfig
+com/urbancomputing/wasteIdentifier/MainActivity.java
+ com.urbancomputing.wasteIdentifier.MainActivity
+ com.urbancomputing.wasteIdentifier.MainActivity$1
+ com.urbancomputing.wasteIdentifier.MainActivity$2
+ com.urbancomputing.wasteIdentifier.MainActivity$3
+com/urbancomputing/wasteIdentifier/HelpWasteCategorizer.java
+ com.urbancomputing.wasteIdentifier.HelpWasteCategorizer
+ com.urbancomputing.wasteIdentifier.HelpWasteCategorizer$1
+ com.urbancomputing.wasteIdentifier.HelpWasteCategorizer$2
+ com.urbancomputing.wasteIdentifier.HelpWasteCategorizer$3
+ com.urbancomputing.wasteIdentifier.HelpWasteCategorizer$4
+com/urbancomputing/wasteIdentifier/WasteCategorizer.java
+ com.urbancomputing.wasteIdentifier.WasteCategorizer
+ com.urbancomputing.wasteIdentifier.WasteCategorizer$1
+ com.urbancomputing.wasteIdentifier.WasteCategorizer$2

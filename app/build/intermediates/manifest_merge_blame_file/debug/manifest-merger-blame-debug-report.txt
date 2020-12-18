@@ -1,0 +1,230 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.urbancomputing.wasteIdentifier"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:7:5-81
+12-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.FLASHLIGHT" />
+13-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:8:5-69
+13-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:8:22-66
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:9:5-65
+14-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:9:22-62
+15
+16    <uses-feature android:name="android.hardware.camera2" />
+16-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:11:5-61
+16-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:11:19-58
+17
+18    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+19    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\cd143c3d79c1cdb6b7288854ca78b09e\jetified-firebase-storage-19.2.0\AndroidManifest.xml:26:5-79
+20-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\cd143c3d79c1cdb6b7288854ca78b09e\jetified-firebase-storage-19.2.0\AndroidManifest.xml:26:22-76
+21    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\7673b85c7d1571c5c71e09a6678e8622\jetified-play-services-measurement-api-17.2.0\AndroidManifest.xml:24:5-68
+21-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\7673b85c7d1571c5c71e09a6678e8622\jetified-play-services-measurement-api-17.2.0\AndroidManifest.xml:24:22-65
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\db98e2f339003f906729dec9c3d13867\jetified-firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+22-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\db98e2f339003f906729dec9c3d13867\jetified-firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:26:22-107
+24
+25    <application
+25-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:13:5-37:19
+26        android:allowBackup="true"
+26-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:14:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\b5f8162855c21bb566682bdf47105a51\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:15:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:16:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:17:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:18:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:19:9-40
+35        <activity android:name="com.urbancomputing.wasteIdentifier.WasteCategorizer" />
+35-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:21:9-63
+35-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:21:19-51
+36        <activity android:name="com.urbancomputing.wasteIdentifier.BinIdentification" />
+36-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:22:9-55
+36-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:22:19-52
+37        <activity android:name="com.urbancomputing.wasteIdentifier.HelpWasteCategorizer" />
+37-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:23:9-58
+37-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:23:19-55
+38        <activity
+38-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:24:9-32:20
+39            android:name="com.urbancomputing.wasteIdentifier.MainActivity"
+39-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:25:13-41
+40            android:screenOrientation="portrait" >
+40-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:26:13-49
+41            <intent-filter>
+41-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:27:13-31:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:28:17-69
+42-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:28:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:30:17-77
+44-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:30:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:33:9-36:59
+48            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+48-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:34:13-76
+49            android:screenOrientation="portrait"
+49-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:35:13-49
+50            android:theme="@style/Base.Theme.AppCompat" />
+50-->C:\Users\pragy\Desktop\Masters Modules\CS7NS4- Urban Computing\Urban Computing Project\Assignment 4\UrbanComputing_UrbanWaste\app\src\main\AndroidManifest.xml:36:13-56
+51
+52        <service
+52-->[com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\b2b1ae2ab2cff7719b6e80ef043c6da2\jetified-firebase-ml-vision-24.0.1\AndroidManifest.xml:9:9-15:19
+53            android:name="com.google.firebase.components.ComponentDiscoveryService"
+53-->[com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\b2b1ae2ab2cff7719b6e80ef043c6da2\jetified-firebase-ml-vision-24.0.1\AndroidManifest.xml:10:13-84
+54            android:directBootAware="true"
+54-->[com.google.firebase:firebase-common:19.3.1] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\3050ae582798ec22bd3c30e0b5ccdaa7\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+55            android:exported="false" >
+55-->[com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\b2b1ae2ab2cff7719b6e80ef043c6da2\jetified-firebase-ml-vision-24.0.1\AndroidManifest.xml:11:13-37
+56            <meta-data
+56-->[com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\b2b1ae2ab2cff7719b6e80ef043c6da2\jetified-firebase-ml-vision-24.0.1\AndroidManifest.xml:12:13-14:85
+57                android:name="com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar"
+57-->[com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\b2b1ae2ab2cff7719b6e80ef043c6da2\jetified-firebase-ml-vision-24.0.1\AndroidManifest.xml:13:17-108
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\b2b1ae2ab2cff7719b6e80ef043c6da2\jetified-firebase-ml-vision-24.0.1\AndroidManifest.xml:14:17-82
+59            <meta-data
+59-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\cd143c3d79c1cdb6b7288854ca78b09e\jetified-firebase-storage-19.2.0\AndroidManifest.xml:33:13-35:85
+60                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+60-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\cd143c3d79c1cdb6b7288854ca78b09e\jetified-firebase-storage-19.2.0\AndroidManifest.xml:34:17-107
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-storage:19.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\cd143c3d79c1cdb6b7288854ca78b09e\jetified-firebase-storage-19.2.0\AndroidManifest.xml:35:17-82
+62            <meta-data
+62-->[com.google.firebase:firebase-ml-common:22.0.1] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\df4b00a678078da40466b362502a8cb2\jetified-firebase-ml-common-22.0.1\AndroidManifest.xml:11:13-13:85
+63                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+63-->[com.google.firebase:firebase-ml-common:22.0.1] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\df4b00a678078da40466b362502a8cb2\jetified-firebase-ml-common-22.0.1\AndroidManifest.xml:12:17-117
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-ml-common:22.0.1] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\df4b00a678078da40466b362502a8cb2\jetified-firebase-ml-common-22.0.1\AndroidManifest.xml:13:17-82
+65            <meta-data
+65-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\7673b85c7d1571c5c71e09a6678e8622\jetified-play-services-measurement-api-17.2.0\AndroidManifest.xml:30:13-32:85
+66                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+66-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\7673b85c7d1571c5c71e09a6678e8622\jetified-play-services-measurement-api-17.2.0\AndroidManifest.xml:31:17-139
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\7673b85c7d1571c5c71e09a6678e8622\jetified-play-services-measurement-api-17.2.0\AndroidManifest.xml:32:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\db98e2f339003f906729dec9c3d13867\jetified-firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+69                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+69-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\db98e2f339003f906729dec9c3d13867\jetified-firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\db98e2f339003f906729dec9c3d13867\jetified-firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+71        </service>
+72
+73        <receiver
+73-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\db98e2f339003f906729dec9c3d13867\jetified-firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+74            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+74-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\db98e2f339003f906729dec9c3d13867\jetified-firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+75            android:exported="true"
+75-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\db98e2f339003f906729dec9c3d13867\jetified-firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+76            android:permission="com.google.android.c2dm.permission.SEND" >
+76-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\db98e2f339003f906729dec9c3d13867\jetified-firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+77            <intent-filter>
+77-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\db98e2f339003f906729dec9c3d13867\jetified-firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+78                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+78-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\db98e2f339003f906729dec9c3d13867\jetified-firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+78-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\db98e2f339003f906729dec9c3d13867\jetified-firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+79            </intent-filter>
+80        </receiver>
+81
+82        <activity
+82-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\146130c789a218aacbd823bf2b15ca9f\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+83            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+83-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\146130c789a218aacbd823bf2b15ca9f\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+84            android:exported="false"
+84-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\146130c789a218aacbd823bf2b15ca9f\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+85-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\146130c789a218aacbd823bf2b15ca9f\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+86
+87        <receiver
+87-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:29:9-33:20
+88            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+88-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:30:13-85
+89            android:enabled="true"
+89-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:31:13-35
+90            android:exported="false" >
+90-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:32:13-37
+91        </receiver>
+92        <receiver
+92-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:34:9-42:20
+93            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+93-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:35:13-100
+94            android:enabled="true"
+94-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:36:13-35
+95            android:exported="true"
+95-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:37:13-36
+96            android:permission="android.permission.INSTALL_PACKAGES" >
+96-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:38:13-69
+97            <intent-filter>
+97-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:39:13-41:29
+98                <action android:name="com.android.vending.INSTALL_REFERRER" />
+98-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:40:17-79
+98-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:40:25-76
+99            </intent-filter>
+100        </receiver>
+101
+102        <service
+102-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:44:9-47:40
+103            android:name="com.google.android.gms.measurement.AppMeasurementService"
+103-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:45:13-84
+104            android:enabled="true"
+104-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:46:13-35
+105            android:exported="false" />
+105-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:47:13-37
+106        <service
+106-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:48:9-52:72
+107            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+107-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:49:13-87
+108            android:enabled="true"
+108-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:50:13-35
+109            android:exported="false"
+109-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:51:13-37
+110            android:permission="android.permission.BIND_JOB_SERVICE" />
+110-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\56074944bb295336ed3f38939c27152c\jetified-play-services-measurement-17.2.0\AndroidManifest.xml:52:13-69
+111
+112        <provider
+112-->[com.google.firebase:firebase-common:19.3.1] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\3050ae582798ec22bd3c30e0b5ccdaa7\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+113            android:name="com.google.firebase.provider.FirebaseInitProvider"
+113-->[com.google.firebase:firebase-common:19.3.1] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\3050ae582798ec22bd3c30e0b5ccdaa7\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+114            android:authorities="com.urbancomputing.wasteIdentifier.firebaseinitprovider"
+114-->[com.google.firebase:firebase-common:19.3.1] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\3050ae582798ec22bd3c30e0b5ccdaa7\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+115            android:directBootAware="true"
+115-->[com.google.firebase:firebase-common:19.3.1] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\3050ae582798ec22bd3c30e0b5ccdaa7\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+116            android:exported="false"
+116-->[com.google.firebase:firebase-common:19.3.1] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\3050ae582798ec22bd3c30e0b5ccdaa7\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+117            android:initOrder="100" />
+117-->[com.google.firebase:firebase-common:19.3.1] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\3050ae582798ec22bd3c30e0b5ccdaa7\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+118
+119        <meta-data
+119-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\f980a511bfffd01d56ea89b07537fc7b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+120            android:name="com.google.android.gms.version"
+120-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\f980a511bfffd01d56ea89b07537fc7b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+121            android:value="@integer/google_play_services_version" />
+121-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\pragy\.gradle\caches\transforms-2\files-2.1\f980a511bfffd01d56ea89b07537fc7b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+122    </application>
+123
+124</manifest>
